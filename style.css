@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(/uploads/2022/11/dark4.jpg);
+    overflow: hidden;
+    background-size: cover;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.rocket {
+    width: 50px;
+    position: absolute;
+    overflow: hidden;
+    top: 20vh;
+    z-index: 1;
+}
+
+.rocket img {
+    width: 100%;
+}
+
+.planet {
+    width: 70vw;
+    position: absolute;
+    overflow: hidden;
+    top: 70vh;
+}
+
+.planet img {
+    width: 100%;
+}
